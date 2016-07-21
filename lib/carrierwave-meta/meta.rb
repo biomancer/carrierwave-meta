@@ -7,7 +7,7 @@ module CarrierWave
 
     included do
       include CarrierWave::ModelDelegateAttribute
-      include CarrierWave::MimeTypes
+      # include CarrierWave::MimeTypes
 
       set_content_type(true)
 
